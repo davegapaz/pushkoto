@@ -1,0 +1,114 @@
+main {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.rounded-box {
+    width: 1200px; /* Adjust the width of the box */
+    height: max-content; /* Adjust the height of the box */
+	background: linear-gradient(153.47deg, #FC6611 0.29%, #FFA200 63.55%);
+    border-radius: 40px; /* Set the border-radius to create rounded corners */
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.box-content {
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align text */
+}
+
+/* Styles for the small rounded boxes */
+.small-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* RootCustomer.css */
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.B {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid rgb(253, 117, 27); /* Outline border color */
+    border-radius: 20px;
+    background-color: white; /* White background color */
+    color:rgb(253, 117, 27); /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+	background: linear-gradient(153.47deg, #FC6611 0.29%, #FFA200 63.55%);
+    color: white; /* White text color on hover */
+    border-color: rgb(253, 117, 27); /* Orange border color on hover */
+}
+
+.main-products-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product-cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(153.47deg, #FC6611 0.29%, #FFA200 63.55%);
+	margin: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	width: 200px;
+}
+
+.product-cards:hover{
+	transform: scale(1.2);
+}
+
+img {
+	width: 5px;
+	height: auto;
+}
+
+.addToCart-button {
+	border-radius: 999px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+	opacity: 1;
+	outline: 0 solid transparent;
+	padding: 10px 40px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: fit-content;
+	word-break: break-word;
+	border: 0;
+	text-decoration: none;
+	background-color:#FFA200;
+	box-shadow: transparent 0 0 0 5px,rgba(18, 18, 18, 0.5) 0 4px 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.addToCart-button:hover {
+	color: brown;
+}
